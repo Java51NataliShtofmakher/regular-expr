@@ -12,7 +12,7 @@ class ValidatorTest {
 
 	@Test
 	void testCheckCreditCardNumber() {
-		assertTrue(checkCreditCardNumber("12345678"));
+		assertTrue(checkCreditCardNumber("12345678")); 
 		assertTrue(checkCreditCardNumber("1234567890987654"));
 		assertFalse(checkCreditCardNumber("1234567890"));
 		assertFalse(checkCreditCardNumber("1234567"));

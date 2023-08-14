@@ -62,7 +62,7 @@ class ValidatorTest {
 		assertTrue(checkLessEquals255("5"));
 		assertTrue(checkLessEquals255("58"));
 		assertTrue(checkLessEquals255("199"));
-		assertTrue(checkLessEquals255("255"));
+		assertTrue(checkLessEquals255("255")); 
 		assertFalse(checkLessEquals255("256"));
 		assertFalse(checkLessEquals255("1000"));
 		assertFalse(checkLessEquals255("-2"));
